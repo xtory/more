@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            //
+            "name": "more/mdn/sample-01",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceRoot}/examples/sample-01/index.html",
+            "runtimeExecutable": "${env.USERPROFILE}/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
+            "runtimeArgs": [
+                "-allow-file-access-from-files"
+            ]
+        }, {
+            //
+            "name": "more/mdn/sample-02",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceRoot}/examples/sample-02/index.html",
+            "runtimeExecutable": "${env.USERPROFILE}/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
+            "runtimeArgs": [
+                "-allow-file-access-from-files"
+            ]
+        }, {
+            //
+            "name": "more/mdn/sample-03",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceRoot}/examples/sample-03/index.html",
+            "runtimeExecutable": "${env.USERPROFILE}/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
+            "runtimeArgs": [
+                "-allow-file-access-from-files"
+            ]
+        }
+    ]
+}
